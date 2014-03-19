@@ -1,0 +1,18 @@
+application:
+  BIN_DIR: bin
+  RTC_DIR: rtc
+  RTS_DIR: system
+  conf.C++: conf/rtc_cpp.conf
+  conf.Java: conf/rtc_java.conf
+  conf.Python: conf/rtc_py.conf
+  console_bind:
+  - C++
+  - Java
+  - Python
+  name: opencv_test
+  nameservers:
+  - localhost:2809
+  standalone:
+  - bin/ImageViewerComp -f conf/rtc_ImageViewer.conf
+  - bin/WebCameraComp -f conf/rtc_WebCamera.conf
+  system: system/DefaultSystem.xml
