@@ -7,8 +7,7 @@ application:
   conf.Python: conf/rtc_py.conf
   console_bind:
   - C++
-  - Java
-  - Python
+  - ImageViewer
   name: opencv_test
   nameservers:
   - localhost:2809
