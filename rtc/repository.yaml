@@ -1,3 +1,7 @@
+ImageFaceDetection: {description: '', git: 'https://github.com/sugarsweetrobotics/ImageFaceDetection.git',
+  hash: b022b0acace7cf9cb387b134655647390143ab69}
+ImageFlip: {description: '', git: 'https://github.com/sugarsweetrobotics/ImageFlip.git',
+  hash: eef730d97281e4b60d5d4b0dfb843dd94a8b0595}
 ImageViewer: {description: '', git: 'https://github.com/sugarsweetrobotics/ImageViewer.git',
   hash: 51454b02579051f552cda70b932bf30e7fc1135a}
 WebCamera: {description: '', git: 'https://github.com/sugarsweetrobotics/WebCamera.git',
